@@ -14,10 +14,11 @@ const euphoria_Script = Euphoria_Script({
 
 export default function Page() {
   return (
-    <Text className={euphoria_Script}>Welcome To My Portfolio</Text>
-
-    // <Link href="/about" color="blue.400" _hover={{ color: "blue.900" }}>
-    //   About
-    // </Link>
+    <>
+      <Text className={euphoria_Script}>Welcome To My Portfolio</Text>
+      {/* <Link href="/about" color="blue.400" _hover={{ color: "blue.900" }}>
+       About
+      </Link> */}
+    </>
   );
 }
