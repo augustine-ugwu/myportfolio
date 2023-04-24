@@ -39,16 +39,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        With five years of working experience and a profound amount of knowledge
-        in the field, I am a valuable asset to any team as a frontend engineer.
-        I possess a strong understanding of user interface design principles and
-        am skilled in using the latest frontend technologies to develop
-        high-quality, responsive, and intuitive interfaces. My ability to
-        collaborate with designers, developers, and other stakeholders is
-        exceptional, and I excel in delivering projects on time and within
-        budget. My passion for innovation and commitment to staying up-to-date
-        with the latest industry trends and best practices make me an ideal
-        candidate for any frontend engineering role.
+        With over five years of working experience and a profound amount of
+        knowledge in the tech industry, I am a valuable asset to any team as a
+        frontend engineer. I possess a strong understanding of user interface
+        design principles and am skilled in using the latest frontend
+        technologies to develop high-quality, responsive, and intuitive
+        interfaces. My ability to collaborate with designers, developers, and
+        other stakeholders is exceptional, and I excel in delivering projects on
+        time and within budget. My passion for innovation and commitment to
+        staying up-to-date with the latest industry trends and best practices
+        make me an ideal candidate for any frontend engineering role.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
