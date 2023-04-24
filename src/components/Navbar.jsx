@@ -10,6 +10,22 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
 
+  // Function will execute on click of button
+  const onButtonClick = () => {
+    // using Java Script method to get PDF file
+    fetch("AugustineUgwuCV.pdf").then((response) => {
+      response.blob().then((blob) => {
+        // Creating new object of PDF file
+        const fileURL = window.URL.createObjectURL(blob);
+        // Setting various property values
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "AugustineUgwuCV.pdf";
+        alink.click();
+      });
+    });
+  };
+
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-black`}
@@ -40,6 +56,9 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <button className={`text-white text-[0.8em]`} onClick={onButtonClick}>
+            Download CV
+          </button>
         </ul>
 
         <div className="sm:hidden flex flex-1 justify-end items-center">
@@ -70,6 +89,12 @@ const Navbar = () => {
                   <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <button
+                className={`mt-2 text-white text-[0.8em]`}
+                onClick={onButtonClick}
+              >
+                Download CV
+              </button>
             </ul>
           </div>
         </div>
