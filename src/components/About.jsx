@@ -41,14 +41,14 @@ const About = () => {
       >
         With over five years of working experience and a profound amount of
         knowledge in the tech industry, I am a valuable asset to any team as a
-        frontend engineer. I possess a strong understanding of user interface
+        frontend developer. I possess a strong understanding of user interface
         design principles and am skilled in using the latest frontend
         technologies to develop high-quality, responsive, and intuitive
         interfaces. My ability to collaborate with designers, developers, and
         other stakeholders is exceptional, and I excel in delivering projects on
         time and within budget. My passion for innovation and commitment to
         staying up-to-date with the latest industry trends and best practices
-        make me an ideal candidate for any frontend engineering role.
+        make me an ideal candidate for any frontend development role.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
