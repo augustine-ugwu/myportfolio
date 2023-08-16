@@ -1,13 +1,12 @@
 import { motion } from "framer-motion";
 import { styles } from "../style";
-
 import React from "react";
 
 const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
-        className={`flex xl:flex-row flex-col-reverse gap-10 overflow-hidden `}
+        className={`flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
       >
         <div
           className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}
@@ -23,7 +22,7 @@ const Hero = () => {
             <p className={`${styles.heroSubText} text-white-100`}>
               A frontend developer with over 5 years of working experience
               <br className="sm:block hidden" /> I design and develop
-              user-friendly, interactive, and visually appealing{" "}
+              user-friendly, interactive, and visually appealing
               <br className="sm:block hidden" />
               websites and applications using the latest and most efficient
               technologies.
