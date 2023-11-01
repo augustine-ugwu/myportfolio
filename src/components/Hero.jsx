@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../style";
 import { github } from "../assets";
-import linkedin from "../assets/linkedin.svg";
+import linkedin from "../assets/linkedIn.svg";
 import envelope from "../assets/envelope.svg";
 import twitter from "../assets/twitter.svg";
 import React from "react";
