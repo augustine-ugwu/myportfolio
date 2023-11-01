@@ -31,8 +31,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "projects",
+    title: "Projects",
   },
   {
     id: "contact",
@@ -46,15 +46,15 @@ const services = [
     icon: web,
   },
   {
-    title: "ReactjS Developer",
+    title: "React Js Developer",
     icon: mobile,
   },
   {
-    title: "Frontend developer",
+    title: "React Native Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Graphic Designer",
     icon: creator,
   },
 ];
@@ -196,9 +196,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Ship & Shore",
+    name: "Mercado",
     description:
-      "Web-based platform that provides and charter vessels for the coastal transportation of petroleum products",
+      "A company that helps organizations and small businesses attract, convert and nurture appropriate audiences using the digital space.",
     tags: [
       {
         name: "react",
@@ -214,12 +214,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://shipandshoreng.com/",
+    source_code_link: "https://mdca.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Ship & Shore",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for s, and locate available jobs based on their current location.",
+      "Web-based platform that provides and charter vessels for the coastal transportation of petroleum products.",
     tags: [
       {
         name: "react",
@@ -235,7 +235,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://shipandshoreng.com/",
   },
   {
     name: "Trip Guide",

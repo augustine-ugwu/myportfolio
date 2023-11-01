@@ -39,7 +39,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        With over five years of working experience and a profound amount of
+        With over three years of working experience and a profound amount of
         knowledge in the tech industry, I am a valuable asset to any team as a
         frontend developer. I possess a strong understanding of user interface
         design principles and am skilled in using the latest frontend

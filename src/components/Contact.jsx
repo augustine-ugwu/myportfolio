@@ -72,7 +72,13 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-lg"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubText}>Get in touch with me</p>
+        <div style={{ marginTop: "1em", fontWeight: "500" }}>
+          <p className={`styles.sectionSubText`}>Phone: +2348109238483</p>
+          <p className={`styles.sectionSubText`}>
+            Email: augustinehills@yahoo.com
+          </p>
+        </div>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form

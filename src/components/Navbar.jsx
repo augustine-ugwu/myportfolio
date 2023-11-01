@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-black`}
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 backdrop-blur-sm`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
@@ -56,7 +56,10 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
-          <button className={`text-white text-[0.8em]`} onClick={onButtonClick}>
+          <button
+            className={` w-fit text-white font-bold `}
+            onClick={onButtonClick}
+          >
             Download CV
           </button>
         </ul>
@@ -90,7 +93,7 @@ const Navbar = () => {
                 </li>
               ))}
               <button
-                className={`mt-2 text-white text-[0.8em]`}
+                className={` mt-2 text-black text-[0.8em] `}
                 onClick={onButtonClick}
               >
                 Download CV

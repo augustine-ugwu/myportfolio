@@ -1,5 +1,9 @@
 import { motion } from "framer-motion";
 import { styles } from "../style";
+import { github } from "../assets";
+import linkedin from "../assets/linkedin.svg";
+import envelope from "../assets/envelope.svg";
+import twitter from "../assets/twitter.svg";
 import React from "react";
 
 const Hero = () => {
@@ -20,13 +24,19 @@ const Hero = () => {
               Hi, I'm <span className="text-[#bf61ff]">Augustine</span>
             </h1>
             <p className={`${styles.heroSubText} text-white-100`}>
-              A frontend developer with over 5 years of working experience
+              A frontend developer with over 3 years of working experience.
               <br className="sm:block hidden" /> I design and develop
               user-friendly, interactive, and visually appealing
               <br className="sm:block hidden" />
               websites and applications using the latest and most efficient
               technologies.
             </p>
+            <div className="mt-6 flex flex-wrap gap-6">
+              <img src={github} alt="github icon" width={35} />
+              <img src={linkedin} alt="github icon" width={30} />
+              <img src={twitter} alt="github icon" width={30} />
+              <img src={envelope} alt="github icon" width={30} />
+            </div>
           </div>
         </div>
       </div>
