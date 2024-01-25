@@ -170,26 +170,20 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but he proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "I believed creating a website as stunning as our product was unachievable, yet he proved my assumption incorrect.",
+    name: "Uzor Emmanuel",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like he does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "In all my encounters with web developers, none have shown genuine concern for their clients' success like he does.",
+    name: "Jibril Yusuf",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After he optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Our website's optimization led by him resulted in a  50% surge in traffic. Gratitude isn't enough for his invaluable contribution!",
+    name: "Martins Uche",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
