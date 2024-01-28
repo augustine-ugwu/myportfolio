@@ -1,12 +1,6 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import {
-  Decal,
-  Float,
-  OrbitControls,
-  Preload,
-  useTexture,
-} from "@react-three/drei";
+import { Float, OrbitControls, Preload, useTexture } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
@@ -25,12 +19,11 @@ const Ball = (props) => {
           polygonOffsetFactor={-5}
           flatShading
         />
-        <Decal
-          position={[0, 0, 1]}
-          rotation={[2 * Math.PI, 0, 6.25]}
-          flatShading
-          map={decal}
-        />
+        {decal && (
+          <mesh rotation={[2 * Math.PI, 0, 6.25]}>
+            <Decal position={[0, 0, 1]} flatShading map={decal} />
+          </mesh>
+        )}
       </mesh>
     </Float>
   );
